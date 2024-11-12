@@ -1,0 +1,210 @@
+@keyframes wave {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgba(246, 246, 246, 0.877);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    display: flex;
+    justify-content:space-between;
+    width: 98.5%;
+    height: 100%;
+}
+  .box1 {
+    width: 200px; /* Chiều rộng của box */
+    height: 100px; /* Chiều cao của box */
+    background-color: rgb(255, 165, 0); /* Màu nền */
+    margin: 10px;
+    border-radius: 20px; /* Bo tròn góc */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+  .box2 {
+    width: 200px; /* Chiều rộng của box */
+    height: 100px; /* Chiều cao của box */
+    background-color: rgba(0, 94, 255, 0.468); /* Màu nền */
+    margin: 10px;
+    border-radius: 20px; /* Bo tròn góc */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.36); /* Đổ bóng */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .box3 {
+    width: 200px; /* Chiều rộng của box */
+    height: 100px; /* Chiều cao của box */
+    background-color: rgb(255, 255, 0); /* Màu nền */
+    margin: 10px;
+    border-radius: 20px; /* Bo tròn góc */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .text{
+    position: relative;
+    top:-26px;
+    left: 28px;
+    width: 120x;
+    margin-right: 20px;
+    color: black;
+    
+}
+.textT{
+  position: relative;
+  top:-26px;
+  left: 40px;
+  width: 120x;
+  margin-right: 20px;
+  color: black;
+  
+}
+.Icon{
+    position: relative;
+    top:-20px;
+    font-size: 25px;
+    left: 30px;
+    
+}
+.Light {
+    width: 200px; /* Chiều rộng của box */
+    height: 100px; /* Chiều cao của box */
+    background-color: rgb(250, 250, 250);
+    margin: 10px;
+    border-radius: 20px; /* Bo tròn góc */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+  .Fan {
+    width: 200px; /* Chiều rộng của box */
+    height: 100px; /* Chiều cao của box */
+    background-color: rgba(255, 255, 255);
+    margin: 10px;
+    border-radius: 20px; /* Bo tròn góc */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.36); /* Đổ bóng */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .AC {
+    width: 200px; /* Chiều rộng của box */
+    height: 100px; /* Chiều cao của box */
+    background-color: rgba(255, 255, 255); /* Màu nền */
+    margin: 10px;
+    border-radius: 20px; /* Bo tròn góc */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .Icon1{
+    position: relative;
+    left: 40px;
+    top :-5px;
+    color:yellow;
+  }
+  .Icon2{
+    position: relative;
+    left: 40px;
+    top :-5px;
+    animation:rotate 0.4s linear infinite;
+  }
+  .Icon3{
+    position: relative;
+    left: 40px;
+    top :-5px;
+    animation: wave 1s ease-in-out infinite;
+  }
+  .Icon4{
+    position: relative;
+    left: 40px;
+    top :-5px;
+  }
+.button{
+  position: relative;
+  left: -30px;
+
+}
+.button-Off{
+  background-color: red;
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+}
+.button-On{
+  background-color: rgb(1, 180, 1);
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+}
+.chart{
+  margin: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  flex-direction: column;
+  height: 600px;
+}
+.chart1{
+  display: flex;
+  justify-content: space-around;
+
+}
+.chart2{
+  display: flex;
+  justify-content: center;
+
+}
+.inform{
+  position: relative;
+  top:20px;
+  left: -90px;
+  font-size: 30px;
+}
+.inform1{
+  position: relative;
+  top:20px;
+  left: -70px;
+  font-size: 30px;
+}
+.inform2{
+  position: relative;
+  top:20px;
+  left: -50px;
+  font-size: 30px;
+}
+.textL{
+  position: relative;
+    top:-26px;
+    left: 60px;
+    width: 120x;
+    margin-right: 20px;
+    color: black;
+}
+.IconL{
+    position: relative;
+    top:-20px;
+    font-size: 25px;
+    left: 60px;
+}
+
+
+
+
+  
